@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 
+
+//Insert Student record using doPost.
+
 public class AddStudentServlet extends HttpServlet
 {
     public static HashMap<String, StudentRecord> student = new HashMap<>();

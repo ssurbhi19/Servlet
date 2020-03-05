@@ -2,6 +2,7 @@ com\java\filter\ContentChangeFilter.class
 com\java\servlet\SearchStudentServlet.class
 com\java\model\StudentRecord.class
 com\java\listener\AppContextListener.class
+com\java\servlet\GetDataFromPropertyServlet.class
 com\java\filter\RollNoFilter.class
 com\java\filter\NameFilter.class
 com\java\exception\EmptyException.class

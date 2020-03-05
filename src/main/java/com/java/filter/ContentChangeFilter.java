@@ -6,7 +6,7 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-
+//Changes the java object into JSON or XML according to the accept field of HTTP Header.
 public class ContentChangeFilter implements Filter
 {
     private FilterConfig filterConfig;

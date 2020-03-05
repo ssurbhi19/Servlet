@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+//Show data after searching from hashmap
 public class SearchStudentServlet extends HttpServlet
 {
     private ServletConfig servletConfig;

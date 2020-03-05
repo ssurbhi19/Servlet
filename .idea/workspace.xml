@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7800d068-3993-4dc7-8587-f5040fd47f55" name="Default Changelist" comment="" />
+    <list default="true" id="7800d068-3993-4dc7-8587-f5040fd47f55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/servlet/GetDataFromPropertyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/exception/AlreadyExitsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/exception/AlreadyExitsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/exception/EmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/exception/EmptyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/filter/ContentChangeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/filter/ContentChangeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/filter/NameFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/filter/NameFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/filter/RollNoFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/filter/RollNoFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/listener/AppContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/listener/AppContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/model/StudentRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/model/StudentRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/servlet/AddStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/servlet/AddStudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/servlet/SearchStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/servlet/SearchStudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Student-Servlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Student-Servlet.war" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +42,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YYw8gCTIwDeuY4jYDvai96Ga8e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +51,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last.edited.regexp" value="Surbhi" />
   </component>
   <component name="RecentsManager">

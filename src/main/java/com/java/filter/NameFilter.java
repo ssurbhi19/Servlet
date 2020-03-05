@@ -4,7 +4,7 @@ import javax.servlet.*;
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//Validates the name
 public class NameFilter implements Filter
 {
     private FilterConfig filterConfig;

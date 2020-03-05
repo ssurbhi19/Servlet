@@ -1,5 +1,5 @@
 package com.java.model;
-
+//POJO
 public class StudentRecord
 {
     private String name;

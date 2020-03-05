@@ -10,7 +10,14 @@
 
 <form action= "searchStudents" method="get">
 Enter roll no to check : <input type="text" name="check" required>
-<input type="submit">
+<input type="submit" name="GetDataFromDoGet">
+
+</form>
+</form>
+
+<form action= "searchStudentsFromProperties" method="get">
+Enter roll no to check : <input type="text" name="check" required>
+<input type="submit" name="GetDataFromProperty">
 
 </form>
 </body>
