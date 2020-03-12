@@ -10,6 +10,8 @@ import java.io.IOException;
 public class ContentChangeFilter implements Filter
 {
     private FilterConfig filterConfig;
+    private ObjectMapper objectMapper = new ObjectMapper();
+    private XmlMapper xmlMapper = new XmlMapper();
     @Override
     public void init(FilterConfig filterConfig) throws ServletException
     {
@@ -33,13 +35,12 @@ public class ContentChangeFilter implements Filter
         else {
             if (accept.equals("application/json"))
             {
-                ObjectMapper objectMapper = new ObjectMapper();
+
                 String json = objectMapper.writeValueAsString(data);
                 servletResponse.getWriter().println(json);
             }
             else if (accept.equals("application/xml"))
             {
-                XmlMapper xmlMapper = new XmlMapper();
                 String xml = xmlMapper.writeValueAsString(data);
                 servletResponse.getWriter().println(xml);
             }

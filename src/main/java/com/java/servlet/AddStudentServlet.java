@@ -37,6 +37,7 @@ public class AddStudentServlet extends HttpServlet
 
                 if (name.isEmpty() || univ.isEmpty())
                 {
+
                     throw new EmptyException("Field is not provided a value.");
                 }
 
@@ -56,6 +57,22 @@ public class AddStudentServlet extends HttpServlet
             resp.getWriter().println(e.getMessage());
         }
 
+    }
+
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+    {
+        servletConfig.getServletContext().log(this.getClass()+" GET()");
+        String roll_no = req.getParameter("check");
+        StudentRecord studentRecord = AddStudentServlet.student.get(roll_no);
+
+        if(AddStudentServlet.student.containsKey(roll_no))
+        {
+            req.setAttribute("student",studentRecord);
+        }
+        else
+        {
+            resp.getWriter().println("Student record doesnot exist..");
+        }
     }
 
     public void destroy()

@@ -8,6 +8,7 @@
      <param-name>properties</param-name>
      <param-value>C:\Users\SurbhiVerma\Student-Servlet\src\resources\config.properties</param-value>
    </context-param>
+
   <filter>
     <filter-name>contentChangeFilter</filter-name>
     <filter-class>com.java.filter.ContentChangeFilter</filter-class>
@@ -54,7 +55,7 @@
 
   <servlet>
     <servlet-name>check</servlet-name>
-    <servlet-class>com.java.servlet.SearchStudentServlet</servlet-class>
+    <servlet-class>com.java.servlet.AddStudentServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>

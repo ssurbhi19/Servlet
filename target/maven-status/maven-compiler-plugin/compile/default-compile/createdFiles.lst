@@ -1,5 +1,4 @@
 com\java\filter\ContentChangeFilter.class
-com\java\servlet\SearchStudentServlet.class
 com\java\model\StudentRecord.class
 com\java\listener\AppContextListener.class
 com\java\servlet\GetDataFromPropertyServlet.class

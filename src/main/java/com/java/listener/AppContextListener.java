@@ -1,7 +1,5 @@
 package com.java.listener;
 
-import com.java.servlet.SearchStudentServlet;
-
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import java.io.FileInputStream;
@@ -19,8 +17,9 @@ public class AppContextListener implements ServletContextListener {
             Properties prop = readPropertiesFile(propertyFilePath);
             servletContextEvent.getServletContext().setAttribute("propertyFile",prop);
 
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (IOException e)
+        {
+            servletContextEvent.getServletContext().log("IO Exception");
         }
     }
 
